@@ -1,0 +1,32 @@
+{
+    "name" : "mlocati-concrete5-packages/proxy_ip_manager",
+    "description" : "concrete5 package to manage the trusted proxy IP addresses",
+    "type" : "concrete5-package",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Michele Locati",
+            "email" : "michele@locati.it",
+            "homepage" : "https://mlocati.github.io",
+            "role" : "author"
+        }
+    ],
+    "homepage" : "https://github.com/mlocati/proxy_ip_manager",
+    "support" : {
+        "issues" : "https://github.com/mlocati/proxy_ip_manager/issues",
+        "source" : "https://github.com/mlocati/proxy_ip_manager"
+    },
+    "keywords" : [
+        "concrete5",
+        "package",
+        "proxy",
+        "ip",
+        "trust",
+        "forward",
+        "header",
+        "cloudflare"
+    ],
+    "require": {
+        "concrete5/core": "^8.5"
+    }
+}
