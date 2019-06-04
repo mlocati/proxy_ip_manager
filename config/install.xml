@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<concrete5-cif version="1.0">
+
+    <singlepages>
+        <page package="proxy_ip_manager" name="Proxy IP Providers" description="" path="/dashboard/system/permissions/proxy_ip_providers">
+        </page>
+        <page package="proxy_ip_manager" name="Configure Proxy IP Provider" description="" path="/dashboard/system/permissions/proxy_ip_providers/configure">
+            <attributes>
+                <attributekey handle="exclude_nav"><value>1</value></attributekey>
+            </attributes>
+        </page>
+    </singlepages>
+
+</concrete5-cif>
