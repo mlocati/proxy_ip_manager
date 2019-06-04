@@ -28,5 +28,9 @@
     ],
     "require": {
         "concrete5/core": "^8.5"
+    },
+     "suggest": {
+        "mlocati-concrete5-packages/cname_proxy_ip_provider": "Add support for resolving CNAMEs / domain names",
+        "mlocati-concrete5-packages/cloudflare_proxy_ip_provider": "Add support for CloudFlare IP addresses"
     }
 }
