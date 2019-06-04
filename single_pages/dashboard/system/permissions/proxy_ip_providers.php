@@ -223,7 +223,7 @@ var vue = new Vue({
             })
             .done(function(data) {
                 my.nextAutomaticRun = data.nextAutomaticRun;
-                my.updatesResult = data;
+                my.updatesResult = data.updatesResult;
                 my.$nextTick(function() {
                     var $dlg;
                     $(document.body).append($dlg = $('<div class="ccm-ui" />').html($('#proxy_ip_manager-updateresults').html()));

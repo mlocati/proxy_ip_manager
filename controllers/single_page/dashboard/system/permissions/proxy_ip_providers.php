@@ -141,10 +141,8 @@ EOT
         $bufferedOutput = new BufferedOutput(BufferedOutput::VERBOSITY_DEBUG, false);
         $this->app->make(Updater::class)->attachConsole($bufferedOutput)->processEnabledProviders();
 
-        $updatesResult = $this->app->make(ResponseFactoryInterface::class)->json($bufferedOutput->fetch());
-
         return $this->app->make(ResponseFactoryInterface::class)->json([
-            'updatesResult' => $updatesResult,
+            'updatesResult' => $bufferedOutput->fetch(),
             'nextAutomaticRun' => $this->getNextAutomaticRunDescription(),
         ]);
     }
