@@ -45,6 +45,7 @@ class Controller extends Package
      */
     protected $packageDependencies = [
         'cloudflare_proxy' => false,
+        'cloudfront_proxy' => false,
     ];
 
     /**
