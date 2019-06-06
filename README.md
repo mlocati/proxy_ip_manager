@@ -10,8 +10,9 @@ This package is easily extensible to add custom IP address providers.
 Currently, the following providers are available:
 
 - `Manual` provider (included in this package): lets you manually specify a list of IP addresses
-- [`CNAME` provider](https://github.com/mlocati/cname_proxy_ip_provider): lets you specify CNAMEs / domain names, and the package will resolve them to the associated IP addresses
 - [`CloudFlare` provider](https://github.com/mlocati/cloudflare_proxy_ip_provider): fetches the list of IP addresses directly from CloudFlare
+- [`CloudFront` provider](https://github.com/mlocati/cloudfront_proxy_ip_provider): fetches the list of IP addresses directly from CloudFront
+- [`CNAME` provider](https://github.com/mlocati/cname_proxy_ip_provider): lets you specify CNAMEs / domain names, and the package will resolve them to the associated IP addresses
 
 
 ## Features
